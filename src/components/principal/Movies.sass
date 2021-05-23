@@ -1,0 +1,190 @@
+.headPage1
+ display: flex
+ width: 100%
+ height: auto
+ justify-content: center
+ align-items: center
+ padding: 2% 0% 2% 0%
+.Page1
+ display: flex
+ width: 100%
+ height: auto
+ justify-content: center
+ align-items: center
+ flex-direction: column
+
+.gridMovies
+ display: flex
+ width: 95%
+ height: auto
+ flex-wrap: wrap
+ font-size: 1vw
+.listMovies
+ display: flex
+ width: 100%
+ height: auto
+ flex-direction: column
+
+.MoviesView
+ display: flex
+ width: 10%
+ height: auto
+ align-items: center
+ flex-direction: column
+ padding: 0.5% 1% 0% 1%
+ color: white
+ margin: 1%
+ font-size: 1.2vw
+.MoviesListView
+ display: flex
+ width: 96%
+ height: auto
+ align-items: center
+ flex-direction: column
+ cursor: pointer
+ color: white
+ margin: 1%
+ font-size: 1.2vw
+.contentpictureMovie:hover
+ box-shadow: #007aff5c  1px 1px 8px 1px 
+ cursor: pointer
+.contentpictureMovie
+ display: flex
+ width: 100%
+ height: auto
+ margin-bottom: 2%
+.pictureMovie
+ width: 100%
+ height: 14vw
+
+.idMovie
+ display: flex
+ width: 100%
+ height: auto
+ justify-content: flex-end
+ font-weight: 500
+ display: none
+.idUserC
+ left: 1.5em
+ width: 15%
+ background: #f05a1a
+ padding: 2%
+ border-radius: 50%
+ color: white
+ position: relative
+ bottom: -1em
+.svgIcof
+ width: auto
+ height: auto
+ cursor: pointer
+ display: flex
+ justify-content: flex-end
+.svgIco
+ width: 12%
+ height: auto
+ cursor: pointer
+.inputSopraf
+ width: 100%
+.inputSopra
+ width: 90%
+ height: auto
+ margin: 2%
+ font-size: 1vw
+.svgIcoedit
+ display: flex
+ width: 100%
+ height: auto
+.Buttonfather
+ display: flex
+ width: 100%
+ height: auto
+ justify-content: center
+ align-items: center
+ padding: 2%
+ margin-top: 2%
+.buttonEditUser
+ background: #516a7e
+ width: 80%
+ cursor: pointer
+ border-radius: 1em
+ color: white
+ padding: 1%
+.titleMovie
+ display: flex
+ width: 100%
+ height: 100%
+ justify-content: space-between
+ font-weight: 500
+ align-items: center
+ flex-direction: column
+ padding: 1%
+.descriptionMovie
+ display: flex
+ width: 100%
+ height: auto
+ overflow-wrap: anywhere
+ display: none
+.yearMovie
+ //position: absolute
+ bottom: .5rem
+ right: .5rem
+ z-index: 3
+
+ font-weight: 700
+ background-color: #007AFF
+ padding: 0 .25rem
+ line-height: 0.6rem
+ border-radius: 1rem
+ color: #fff
+.voteMovie
+ display: flex
+ bottom: .5rem
+ right: .5rem
+ z-index: 3
+ font-weight: 700
+ padding: 0 .25rem
+ line-height: 0.6rem
+ border-radius: 1rem
+ color: white
+ align-items: flex-end
+ font-size: 1vw
+ 
+.detailsMovie
+ display: flex
+ width: 9%
+ height: auto
+ justify-content: space-between
+ align-items: center
+ position: absolute
+ margin-top: 12%
+ font-size: 0.6vw
+//MVL
+@media (max-width: 480px)
+ .gridMovies
+  width: 100%
+  margin-top: 2%
+ .inputSopra
+  font-size: 13px
+ .App-header
+  font-size: 11px
+ .MoviesView
+  width: 29%
+  font-size: 11px
+
+ .descriptionMovie
+  height: 6vw
+ .pictureMovie
+  height: 38vw
+ .headPage1
+  width: 84%
+  flex-direction: column
+ .detailsMovie
+  width: 24%
+  font-size: 11px
+  margin-top: 32%
+ .voteMovie
+  font-size: 11px
+  display: flex
+  align-items: center
+ .MoviesListView
+  font-size: 13px
